@@ -1,9 +1,8 @@
 /*
 Forms Validate 
 */
-
-var ck_name = /^[A-Za-z ]{3,25}$/;
-var ck_last_name = /^[A-Za-z ]{3,25}$/;
+var ck_name = /^[ÑA-Zña-z ]{3,25}$/;
+var ck_last_name = /^[ÑA-Zña-z ]{3,25}$/;
 var ck_email = /^(([a-zA-Z0-9_\-\.]+)@([a-zA-Z0-9_\-\.]+)\.([a-zA-Z]{2,5}){1,25})+([;.](([a-zA-Z0-9_\-\.]+)@{[a-zA-Z0-9_\-\.]+0\.([a-zA-Z]{2,5}){1,25})+)*$/;
 var ck_phone = /^\d{7,15}$/;
 
